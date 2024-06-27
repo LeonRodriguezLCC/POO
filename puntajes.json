@@ -1,0 +1,77 @@
+{
+    "__class__": "GestorJugadores",
+    "jugadores": [
+        {
+            "__class__": "Jugador",
+            "__atributos__": {
+                "nombre": "modoSerio",
+                "puntos": 152,
+                "fecha": "26/06/2024",
+                "hora": "18:20:08"
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__atributos__": {
+                "nombre": "a ver",
+                "puntos": 4,
+                "fecha": "26/06/2024",
+                "hora": "20:24:40"
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__atributos__": {
+                "nombre": "a",
+                "puntos": 3,
+                "fecha": "26/06/2024",
+                "hora": "20:24:08"
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__atributos__": {
+                "nombre": "test",
+                "puntos": 2,
+                "fecha": "26/06/2024",
+                "hora": "20:22:11"
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__atributos__": {
+                "nombre": "s",
+                "puntos": 2,
+                "fecha": "26/06/2024",
+                "hora": "20:27:47"
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__atributos__": {
+                "nombre": "test",
+                "puntos": 0,
+                "fecha": "26/06/2024",
+                "hora": "20:22:20"
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__atributos__": {
+                "nombre": "a",
+                "puntos": 0,
+                "fecha": "26/06/2024",
+                "hora": "20:23:50"
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__atributos__": {
+                "nombre": "a",
+                "puntos": 0,
+                "fecha": "26/06/2024",
+                "hora": "20:23:55"
+            }
+        }
+    ]
+}
