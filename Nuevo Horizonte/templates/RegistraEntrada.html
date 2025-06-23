@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Registrar Entrada{% endblock %}
+{% block content %}
+    <h1>Nuevo Horizonte - Registrar entrada</h1>
+      <hr/>        
+      <form method = "post" class = "container">
+         <label for="legajo">Legajo:</label><br>
+         <input type="text" placeholder = "Legajo" id = "legajo" name = "legajo" required/><br>
+         <label for = "dig">DNI (últimos 4 dígitos)</label><br>
+         <input type="text" placeholder = "xxxx" id = "dig" name = "dig" required><br>
+         <select id = "dependencia" name = "dependencia" required>
+             <option value="" selected disabled>Seleccionar dependencia</option>
+             <option value="D01">Edificio Central</option>
+             <option value="D02">Talleres</option>
+             <option value="D03">Centro deportivo</option>
+         </select>
+		 <br>
+         <input type = "submit" value = "Registrar Entrada" />
+      </form>
+{% endblock %}

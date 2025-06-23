@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Tabla de Registros{% endblock %}
+
+{% block content %}
+    <h3>Registros de {{ nombre }}:</h3>
+  <table> 
+    <tr>
+      <th>Fecha</th>
+      <th>Hora de entrada</th>
+      <th>Hora de salida</th>
+      <th>Dependencia</th>
+    </tr>
+    {% for i in registros %}
+      <tr>
+        <td>{{ i.fecha }}</td>
+        <td>{{ i.horaentrada }}</td>
+        <td>{{ i.horasalida or 'N/A' }}</td>
+        {% if i.dependencia == 'D01' %}
+          {% set depe = "Edificio Central" %}
+        {% elif i.dependencia == 'D02' %}
+          {% set depe = "Talleres" %}
+        {% elif i.dependencia == 'D03' %}
+          {% set depe = "Centro deportivo" %}
+        {% endif %}
+        <td>{{ depe }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock %}

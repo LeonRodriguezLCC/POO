@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Registrar Salida{% endblock %}
+{% block content %}
+    <h1>Nuevo Horizonte - Registrar salida</h1>
+      <hr/>        
+      <form method = "post" action = "/RegistraSalida" class = "container">
+         <label for="legajo">Legajo:</label><br>
+         <input type="text" placeholder = "Legajo" id = "legajo" name = "legajo" required/><br>
+         <label for = "dig">DNI (últimos 4 dígitos)</label><br>
+         <input type="text" placeholder = "xxxx" id = "dig" name = "dig" required><br>
+		 <br>
+         <input type = "submit" value = "Registrar Salida" />
+      </form>
+      <br>
+{% endblock %}

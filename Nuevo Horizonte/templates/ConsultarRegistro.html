@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Consultar Registro{% endblock %}
+{% block content %}
+    <h1>Nuevo Horizonte - Consultar Registros</h1>
+      <hr/>        
+      <form method = "post" class = "container">
+        <label for = "legajo">Legajo:</label><br>
+        <input type = "text" placeholder = "legajo" id = "legajo" name = "legajo" required/><br>
+        <label for = "dig">DNI (últimos 4 dígitos)</label><br>
+        <input type = "text" placeholder = "xxxx" id = "dig" name = "dig" required><br>
+        <label for = "fecha">Fecha inicio:</label><br>
+        <input type = "date" id = "fechaI" name = "fechaI" required><br>
+        <label for = "fecha">Fecha fin:</label><br>
+        <input type = "date" id = "fechaF" name = "fechaF" required><br>
+		<br>
+        <input type = "submit" value = "Consultar" />
+      </form>
+{% endblock %}

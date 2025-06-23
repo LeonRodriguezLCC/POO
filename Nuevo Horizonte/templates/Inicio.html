@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+    <title>Nuevo Horizonte</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
+  </head>   
+   <body>     
+	<h1> Nuevo Horizonte - Registros de Horarios</h1>
+	<ul>
+	   <li> <a href = "{{ url_for('RegistraEntrada') }}"> Resgistrar Entrada </a></li><br>	
+      <li> <a href = "{{ url_for('RegistraSalida') }}"> Resgistrar Salida </a></li><br>	
+      <li> <a href = "{{ url_for('ConsultarRegistro') }}"> Consultar Registro </a></li><br>	
+	</ul>
+   </body>
+</html>
